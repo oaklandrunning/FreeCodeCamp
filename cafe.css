@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+
+/* The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this. Create a new type selector in the style sheet that gives your div element a width of 80%.
+div {
+    background-color: burlywood;
+    /* Next, you want to center the div horizontally. You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element. Using these two margin properties, center the div element within the body element. */
+    /* margin-left: auto;
+    margin-right: auto;*/
+    /*The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this. Create a new type selector in the style sheet that gives your div element a width of 80%. */
+    /*width: 80%;
+    }
+*/
+h1, h2 {
+    font-family: Impact,  serif;
+}
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px
+}
+.menu {
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+.flavor, .dessert { 
+    text-align: left; width: 75%;
+}
+
+.price {
+    text-align: right; width: 25%;
+}
+
+.established {
+    font-style:italic;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+    
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
